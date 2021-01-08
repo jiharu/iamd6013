@@ -96,7 +96,7 @@ img {
 }
 
 .header {
-  width:220px;
+  width:20%;
   float:left;
   position:fixed;
 }
@@ -118,7 +118,6 @@ img {
   border-radius:5px;
   border:1px solid #d2d2d2;
   box-shadow:inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
-  width:220px;
 }
 
 .header li {
@@ -160,7 +159,7 @@ strong {
 }
 
 .section {
-  width:700px;
+  width:80%;
   float:right;
   padding-bottom:50px;
 }
@@ -253,61 +252,6 @@ hr {
     color:#444;
   }
 }
-
-/* thumbnails */
-.thumbnailgrid {
-	padding: 0px;
-	margin: 0px;
-	overflow:hidden;
-	/*background-color: #222;*/
-}
-
-.width30 {
-	width:32%;
-}
-
-.width20 {
-	width:19%;
-}
-
-.thumbnail {
-    overflow: hidden;
-    position: relative;
-    /*display: inline-block;*/
-    float: left;
-    margin: 0.5%;
-    padding: 0px;
-}
-.thumbnail:hover {
-    border-style: none;
-}
-/* hack to force thumbnail to be square */
-.thumbnail:before {
-  display: block;
-  content: "";
-  width: 100%;
-  padding-top: 100%;
-}
-
-.thumbnail img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  border-style: none;
-  border-width: 0px;
-  margin: 0%;
-  padding: 0;
-}
-
-.thumbnail:visited img {
-  border-style: none;
-}
-
 
 /*
 
